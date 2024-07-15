@@ -10,8 +10,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EurekaServerApplication {
 
     // Main method to run the Spring Boot application
-    public static void main(String[] args) {\
-        System.out.println("Eureka server");
+
+    public static void main(String[] args) {
+        System.out.println("Service registry");
         SpringApplication.run(EurekaServerApplication.class, args);  // Starts the Eureka server
     }
 
